@@ -1,0 +1,72 @@
+Format: Log Type - Time(microsec) - Message - Optional Info                                                                 
+Log Type: B - Since Boot(Power On Reset),  D - Delta,  S - Statistic                                                        
+S - QC_IMAGE_VERSION_STRING=BOOT.BF.3.1.4-00030                                                                             
+S - IMAGE_VARIANT_STRING=LAATNNAZA                                                                                          
+S - OEM_IMAGE_VERSION_STRING=qiao211--OptiPlex-7050                                                                         
+S - Boot Config, 0x000002e1                                                                                                 
+B -      1216 - PBL, Start                                                                                                  
+B -      3723 - bootable_media_detect_entry, Start                                                                          
+B -      4380 - bootable_media_detect_success, Start                                                                        
+B -      4384 - elf_loader_entry, Start                                                                                     
+B -      6532 - auth_hash_seg_entry, Start                                                                                  
+B -      6753 - auth_hash_seg_exit, Start                                                                                   
+B -     54617 - elf_segs_hash_verify_entry, Start                                                                           
+B -     98555 - PBL, End                                                                                                    
+B -     98570 - SBL1, Start (MPM timestamp = 107055)                                                                        
+B -         0 - pm_device_init, Start                                                                                       
+B -         0 - PM_SET_VAL:Skip                                                                                             
+D -         0 - pm_device_init, Delta                                                                                       
+B -         0 - boot_config_data_table_init, Start                                                                          
+D -         0 - boot_config_data_table_init, Delta - (420 Bytes)             
+B -         0 - CDT version:3,Platform ID:8,Major ID:1,Minor ID:0,Subtype:2
+B -         0 - sbl1_ddr_set_params, Start
+B -         0 - Pre_DDR_clock_init, Start
+D -         0 - Pre_DDR_clock_init, Delta
+D -         0 - sbl1_ddr_set_params, Delta
+B -         0 - pm_driver_init, Start
+D -         0 - pm_driver_init, Delta
+B -         0 - cpr_init, Start
+D -         0 - cpr_init, Delta
+B -         0 - cpr_cx_mx_apc_vol_update, Start
+D -         0 - cpr_cx_mx_apc_vol_update, Delta
+B -         0 - sbl1_qhsusb_al_do_fast_enum, Start
+D -         0 - sbl1_qhsusb_al_do_fast_enum, Delta
+B -         0 - clock_init, Start
+D -         0 - clock_init, Delta
+B -         0 - boot_flash_init, Start
+D -         0 - boot_flash_init, Delta
+B -         0 - QSEE Image Loaded, Start
+B -         0 - Image Auth, Start
+D -         0 - Image Auth, Done
+D -         0 - QSEE Image Loaded, Delta - (929668 Bytes)
+B -         0 - SEC Image Loaded, Start
+D -         0 - SEC Image Loaded, Delta - (0 Bytes)
+B -         0 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -         0 - DEVCFG Image Loaded, Start
+B -         0 - Image Auth, Start
+D -         0 - Image Auth, Done
+D -         0 - DEVCFG Image Loaded, Delta - (31144 Bytes)
+B -         0 - MSADP Partition does not exist
+B -         0 - RPM Image Loaded, Start
+B -         0 - Image Auth, Start
+D -         0 - Image Auth, Done
+D -         0 - RPM Image Loaded, Delta - (151216 Bytes)
+B -         0 - ACDB Image Loaded, Start
+D -         0 - ACDB Image Loaded, Delta - (131112 Bytes)
+B -         0 - MBA Image Loaded, Start
+D -         0 - MBA Image Loaded, Delta - (238752 Bytes)
+B -         0 - Q6 Image Loaded, Start
+B -         0 - Image Auth, Start
+D -         0 - Image Auth, Done
+D -         0 - Q6 Image Loaded, Delta - (41413221 Bytes)
+B -         0 - APPS Image Loaded, Start
+B -         0 - Image Auth, Start
+D -         0 - Image Auth, Done
+D -         0 - APPS Image Loaded, Delta - (4468608 Bytes)
+B -         0 - QSEE Execution, Start
+D -         0 - QSEE Execution, Delta
+B -         0 - SBL1, End
+D - SBL1, Delta
+S - Throughput, 0 KB/s  (47364253 Bytes,  0 us)
+S - DDR Frequency, 240 MHz
